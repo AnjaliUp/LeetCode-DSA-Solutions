@@ -13,7 +13,7 @@ class Solution {
         int MAX = Integer.MAX_VALUE, MIN = Integer.MIN_VALUE;
 		
 		// initiate the starting pointer
-        int i = (s.charAt(0) == '+' || s.charAt(0) == '-') ? 1 : 0;
+        int i = (s.charAt(0) == '+' || s.charAt(0) == '-') ? 1 : 0;  // If there is anysign before the start traversal from index 1  else from the index 0
 		
         while(i < s.length()) {
             if(s.charAt(i) == ' ' || !Character.isDigit(s.charAt(i))) break;
