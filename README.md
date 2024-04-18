@@ -1,2 +1,2 @@
 # LeetCode-DSA-Solutions
-This repository will contains the java solution of DSA Problems
+This repository serves as a comprehensive resource for mastering data structures and algorithms through solving LeetCode problems using Java programming language
